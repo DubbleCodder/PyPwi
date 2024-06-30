@@ -1,6 +1,6 @@
 from time import *
 
-class file:
+class Read:
     def __init__(self, file, amt):
         self.fn = open(file, "r")
         self.amt = amt
